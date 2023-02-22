@@ -40,19 +40,19 @@ a.skip{
 }
   /* Requirement 5 code here -- Do not remove this comment. */
 .about {
-  grid-column-start: 2;
+  grid-column: 2;
 }
 
 .clients {
-  grid-column-start: 2;
+  grid-column: 2;
 }
 
 .method {
-  grid-column-start: 2;
+  grid-column: 2;
 }
 
 .contact {
-  grid-column-start: 2;
+  grid-column: 2;
 }
 
   /* Requirement 6 code here -- Do not remove this comment. */
@@ -62,31 +62,25 @@ img {
 
   /* Requirement 7 code here -- Do not remove this comment. */
 .about-image {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column: 1 / span 3;
   max-height: 500px;
-  grid-row-start: 1;
-  grid-row-end: 3;
   grid-row: 1;
 }
 
 .clients-image {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column: 1 / span 3;
   max-height: 500px;
   grid-row: 2;
 }
 
 .method-image {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column: 1 / span 3;
   max-height: 500px;
   grid-row: 3;
 }
 
 .contact-image {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column: 1 / span 3;
   max-height: 500px;
   grid-row: 4;
 }
@@ -136,7 +130,7 @@ img {
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
 
-    text-align:right
+    text-align: right;
 
   }
 
