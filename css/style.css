@@ -50,7 +50,7 @@ img {
 
   /* Requirement 7 code here -- Do not remove this comment. */
 .about-image, .clients-image, .method-image, .contact-image {
-  grid-column: 1 / 3;
+  grid-column: 1 / -1;
   max-height: 500px;
 }
 
@@ -93,7 +93,6 @@ img {
     margin-right:0;
   }
 
-  
   /* Requirement 11 code here -- Do not remove this comment. */
 a.skip:focus {
   left: 0px;
@@ -122,6 +121,7 @@ a.skip:focus {
   /* Requirement 15 code here -- Do not remove this comment. */
 .about-image, .clients-image, .method-image, .contact-image {
   overflow: hidden;
+}
 }
 
 /** Code for prefers reduced motion **/
